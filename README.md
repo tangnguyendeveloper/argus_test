@@ -45,3 +45,18 @@ cd clients-5.0.0/
 ./configure
 make -j$(nproc)
 make install
+
+```
+
+## Run Code
+
+```bash
+cd
+git clone https://github.com/tangnguyendeveloper/argus_test.git
+cd argus_test
+
+# In main.py, update the network interface and the paths to argus and ar.
+
+python3 main.py
+
+```
